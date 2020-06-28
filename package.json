@@ -1,44 +1,33 @@
 {
-  "name": "react-native-nested-selects",
-  "version": "1.0.2",
-  "description": "This package allows you to easily create nested selects. Supported are static and dynamic selects. For own behaviour you can create your own components by subclassing and implementing only three required functions!",
+  "name": "react-native-onoff-component",
+  "version": "1.0.0",
+  "description": "Simple react native component that easily allows you to create switchable components.",
   "main": "index.js",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Myzel394/react-native-nested-selects.git"
+    "url": "git+https://github.com/Myzel394/react-native-onoff-component.git"
   },
   "keywords": [
-    "react",
-    "native",
     "react-native",
-    "react-component",
+    "react",
+    "onoff",
+    "component",
+    "props",
     "react-native-component",
-    "mobile",
-    "react-native-selects",
-    "select",
-    "selects",
-    "nested",
-    "nested-selects",
-    "static-selects",
-    "dynamic-selects"
+    "switchable",
+    "react-native-switchable"
   ],
   "author": "Myzel394",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Myzel394/react-native-nested-selects/issues"
+    "url": "https://github.com/Myzel394/react-native-onoff-component/issues"
   },
-  "homepage": "https://github.com/Myzel394/react-native-nested-selects#readme",
-  "peerDependencies": {
-    "react-native": "*",
-    "react": "*"
-  },
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.62.2",
-    "react-native-modal": "^11.5.6",
-    "string-constants": "0.0.12"
-  }
+  "homepage": "https://github.com/Myzel394/react-native-onoff-component#readme"
 }
